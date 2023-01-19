@@ -13,3 +13,7 @@ body{
 img:hover{
   border: solid #C14953 3px;
 }
+
+img{
+  border: solid gray 3px;
+}
