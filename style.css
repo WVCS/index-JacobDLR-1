@@ -1,3 +1,15 @@
-body {
+h1{
+  text-align: center;
+  color: #C14953;
+  font-family: garamond;
+  text-shadow: 3px 3px 3px black;
+}
 
+body{
+  background-color: #2D2D2A;
+  
+}
+
+img:hover{
+  border: solid #C14953 3px;
 }
