@@ -9,10 +9,6 @@ body{
   
 }
 
-img{
-  border: dotted #C14953 3px;
-}
-
 img:hover{
   border: solid #C14953 3px;
 }
