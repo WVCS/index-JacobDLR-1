@@ -1,13 +1,16 @@
 h1{
-  text-align: center;
   color: #C14953;
   font-family: garamond;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 2px 2px 2px #2D2D2A;
 }
 
 body{
   background-color: #2D2D2A;
   
+}
+
+img{
+  border: dotted #C14953 3px;
 }
 
 img:hover{
@@ -16,4 +19,34 @@ img:hover{
 
 img{
   border: solid gray 3px;
+}
+
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #000004;
+  top: 0;
+  width: 100%;
+  left: 0;
+  
+}
+
+.navli{
+  display:inline;
+  float: center;
+}
+
+a{
+  text-decoration: none;
+  color:#C14953;
+  padding: 10px;
+  font-size: 30px;
+}
+
+h1{
+  font-family:garamond;
+}
+
+a:hover{
+  text-shadow: 2px 2px 2px purple;
 }
