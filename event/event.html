@@ -6,20 +6,127 @@
     
   <body>
     
+  <div class="sidenav">
+  <a href="event/event.html">Tour</a>
+  <a href="https://soundcloud.com/mario-judah">Listen</a>
+    <a href="index.html">About</a>
+</div>
+    
     <center>
         <img src="MarioJudahsnipppppp.PNG"height=1000px>
-      <center>
+      
    
     <div class="wrapper">
-  <div class="A"> First </div>
-  <div class="B"> Second</div>
-  <div class="C"> Third </div>
+      <div class="A"><p>Fri, APR 20</p> Madison Square Garden - New York, New York <h1><li><a href="https://www.ticketmaster.com/">Tickets</a><li></h1></div>
+      <div class="B"><p>Sat, JUN 9</p> SoFi Stadium - Los Angeles, California <h1><li><a href="https://www.ticketmaster.com/">Tickets</a><li></h1></div>
+    <div class="C"><p>Sun, DEC 25</p> International Space Station - Uganda <h1><li><a href="https://www.ticketmaster.com/">Tickets</a><li></h1> </div>
+      
+      <br><br><br><br><br><br><br>
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AC979eEzzUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </body>
 </html>
-
 
 <style>
   body{
   background-color: black;
+} 
+
+.wrapper{
+  color: white;
+  font-family: arial;
+  
 }
-  </style>
+
+.A{
+  border-top: solid #4C4E52 2px;
+  border-bottom: solid #4C4E52 1px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.B{
+  border-top: solid #4C4E52 1px;
+  border-bottom: solid #4C4E52 1px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.C{
+  border-top: solid #4C4E52 1px;
+  border-bottom: solid #4C4E52 2px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+p{
+  text-align: left;
+  font-weight: bold;
+  
+}
+
+h1{
+  text-align: right;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px){
+  body{
+    background-color: red;
+  }
+}
+
+.A:hover{
+  background-color: #1B1B1B;	
+}
+.B:hover{
+  background-color: #1B1B1B;	
+}
+.C:hover{
+  background-color: #1B1B1B;	
+}
+
+.sidenav{
+  font-family: Brush Script MT;
+  font-size: 30px;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0F0E0E;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  display: block;
+  color: red;
+}
+
+.sidenav a:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+
+    </style>
