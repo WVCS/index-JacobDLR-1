@@ -4,7 +4,7 @@
     <link rel="icon" href="band/regular show logo (1).jpg">
   </head>
   <body>
-    <script src="band/myscripts.js"></script>
+   
   <div class="above"> <img src="https://flxt.tmsimg.com/assets/p13243873_b_h9_aa.jpg"></div>
     <nav>
       <h1>
@@ -403,4 +403,35 @@ tr:nth-child(even){background-color: #f2f2f2}
   
 </html>
     
+    
+    <script>
+       let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
   
